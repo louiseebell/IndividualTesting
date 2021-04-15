@@ -4,7 +4,7 @@ class Deposit :
 
     def Deposit(self):
         print("=================")
-        print("You can now deposit money into your University account.")
+        print("You can now deposit money into your MyPrinting account.")
         print("=================")
         while True:
             try:

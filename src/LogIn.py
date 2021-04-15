@@ -14,10 +14,11 @@ class LogIn:
         return password
 
     def logIn(self):
-        userName = input("Welcome to Glasgow University bank. Please enter your username. ")
+        userName = input("Welcome to Glasgow University MyPrinting. Please enter your username. ")
         password = self.getPassword(userName)
         if password == "":
             print("Your username is incorrect.")
+            quit()
         else:
             if input("Enter password ") == password:
                 print("Welcome", userName, ". You are now logged on.")
