@@ -2,6 +2,10 @@ from src.Customers import Customers
 
 
 class LogIn:
+
+    def __init__(self):
+        self.config = None
+
     def getPassword(self,userName):
         customers = Customers()
         customerData = customers.loadCustomers()

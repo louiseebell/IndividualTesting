@@ -12,5 +12,5 @@ class Deposit :
                 print("\n Amount Deposited: £", amount)
                 break
             except ValueError:
-                print("\n This is not a number. Please try again.")
+                print("\n This is not a valid input. Please try again.")
                 print()
